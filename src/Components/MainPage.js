@@ -27,6 +27,9 @@ class MainPage extends React.Component {
                     <Link to='/projects'>
                         <button id='recentprojects'> See my Recent Projects </button>
                     </Link>
+                    <Link to='/overview'>
+                        <button id='recentprojects'> See my Skills and Brand </button>
+                    </Link>
 
                 </div>
             </div>
