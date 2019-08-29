@@ -31,3 +31,96 @@
     transform: rotate(360deg);
   }
 }
+
+/* header component */
+#header{
+  height:320px;
+  background-color:black;
+  position:relative;
+}
+/* the text within the header */
+#headertext{
+  /*position:absolute;
+  right:375px;
+  top:250px;*/
+  font-size:30px;
+  color:white;
+  padding:10px;
+  text-align:center;
+}
+/* the avatar */
+#avatar{
+  width:200px;
+  position: absolute;
+  top:60px;
+  right:600px;
+  padding:25px;
+  border-radius:50%;
+}
+
+/* main page (holds all main page components) */
+#mainpage{
+  text-align:center;
+}
+/* the images and links here */
+#links{
+  padding:50px;
+}
+#linkgit{
+  width:145px;
+}
+#linkmed{
+  width:150px;
+}
+#linklinked{
+  width:125px;
+}
+/* recent projects button */
+#recentprojects{
+  background-color:black;
+  color:white;
+  width:200px;
+  height:50px;
+  font-size:15px;
+  font-weight:bold;
+  border-radius:10%;
+}
+/* header for projects */
+#headerprojects{
+  background-color:black;
+  height:50px;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
+/* div containing all the cards */
+#cards{
+  display:flex;
+  flex-flow:row wrap;
+  margin:75px;
+}
+
+/* CSS for each card */
+.card {
+  margin-left: left;
+  margin-right: auto;
+  margin:10px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  padding:25px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* card text */
+.container {
+  padding: 2px 16px;
+  width:350px;
+}
+/* image within the card */
+#cardImg{
+  width:350px;
+}
