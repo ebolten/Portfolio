@@ -40,7 +40,6 @@ class Overview extends React.Component {
                 {/* other skills */}
                 <div className='card'>
                     <h1 className='container'> Other Skills <img style={{width:'70px'}} src={skillsicon}/> </h1>
-                    
                     <p style={{fontSize:'20px'}}> <img style={{width:'20px',height:'20px'}} id='icon' src={giticon}/> Git Commands </p>
                 </div>
 
