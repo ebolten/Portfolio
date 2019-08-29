@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Route,withRouter } from 'react-router-dom'
 import MainPage from './Components/MainPage.js'
-import Overview from './Components/Overview.js'
+import OverviewContainer from './Components/OverviewContainer.js'
 import ProjectContainer from './Components/ProjectContainer.js'
 
 //easy video to gif converter:
@@ -17,7 +17,7 @@ function App() {
         
       <Route exact path={'/projects'} render={() => {return ( <ProjectContainer/> )} }/>
 
-      <Route exact path={'/overview'} render={() => {return ( <Overview/> )} }/>
+      <Route exact path={'/overview'} render={() => {return ( <OverviewContainer/> )} }/>
       
     </div>
   );

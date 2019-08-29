@@ -117,6 +117,19 @@
   flex-flow:row wrap;
   margin:75px;
 }
+/* div containing all the skills */
+#overviewcards{
+  display:flex;
+  flex-flow:row wrap;
+  margin:75px;
+}
+/* my bio */
+#bio{
+  width:550px;
+  position:absolute;
+  right:430px;
+  text-align:center;
+}
 
 /* CSS for each card */
 .card {
