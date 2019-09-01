@@ -14,11 +14,13 @@ import frontendicon from './ICONS/frontendicon.jpg'
 import skillsicon from './ICONS/skillsicon.png'
 import htmlicon from './ICONS/htmlicon.png'
 import cssicon from './ICONS/cssicon.png'
+import { Link } from 'react-router-dom'
 
 class Overview extends React.Component {
     render(){
         return(
             <div id='overviewcards'>
+
                 {/* frontend developer skills */}
                 <div className='card'>
                     <h1 className='container'> Frontend <img style={{width:'70px'}} src={frontendicon}/> </h1>
