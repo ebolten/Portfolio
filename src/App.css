@@ -115,7 +115,8 @@ body{
 /* header for overview */
 #headeroverview{
   background-color:black;
-  width:100%;
+  justify-content: flex-end;
+  width:245%;
   height:315px;
   color:white;
   text-align:center;
@@ -134,9 +135,10 @@ body{
 }
 /* div containing all the skills */
 #overviewcards{
+  width:245%;
   display:flex;
   flex-flow:row wrap;
-  margin:75px;
+  margin:50px;
   font-family:'Times New Roman';
   font-weight:bold;
 }

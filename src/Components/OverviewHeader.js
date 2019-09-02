@@ -17,10 +17,10 @@ class OverviewProjects extends React.Component {
                         learning and working with a variety of programming languages as well as learning new ones.
                     </h3>
 
-                    <br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/>
 
                     <Link to='/'>
-                        <button style={{right:'35%'}} id='recentprojectsHome'> Back to Home Page </button>
+                        <button style={{right:'25%'}} id='recentprojectsHome'> Back to Home Page </button>
                     </Link>
 
                 </div>
