@@ -13,15 +13,15 @@ class MainPage extends React.Component {
 
                 <div id='links'>
                     {/* github link */}
-                    <a href='https://github.com/ebolten'>
+                    <a href='https://github.com/ebolten' target="_blank">
                         <img id='linkgit' src={github}/>
                     </a>
                     {/* medium link */}
-                    <a href='https://medium.com/@emilybolten'>
+                    <a href='https://medium.com/@emilybolten' target="_blank">
                         <img id='linkmed' src={medium}/>
                     </a>
                     {/* linkedin link */}
-                    <a href='https://www.linkedin.com/in/emily-bolten-618942159/'>
+                    <a href='https://www.linkedin.com/in/emily-bolten-618942159/' target="_blank">
                         <img id='linklinked' src={linkedin}/>
                     </a>
                     

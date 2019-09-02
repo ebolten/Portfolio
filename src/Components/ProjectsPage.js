@@ -24,7 +24,7 @@ class ProjectsPage extends React.Component {
                         <li> Uses JavaScript Script Engine to add functionality to the calculator </li>
                         <li> Uses grid pane to create layout for buttons and text field </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Java-Calculator'><h6> GitHub Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Java-Calculator' target="_blank"><h6> GitHub Link </h6></a>
                 </div>
                 {/* roommate finder */}
                 <div className='card'>
@@ -35,8 +35,8 @@ class ProjectsPage extends React.Component {
                         <li> Uses RESTful routing (GET, POST, PATCH and DELETE) with Ruby on Rails </li>
                         <li> Uses Postgres database and ActiveRecord to communicate with front-end </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Roommate-Finder-Frontend'><h6> Github Link (Frontend) </h6></a>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Roommate-Finder-Backend'><h6> Github Link (Backend) </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Roommate-Finder-Frontend' target="_blank"><h6> Github Link (Frontend) </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Roommate-Finder-Backend' target="_blank"><h6> Github Link (Backend) </h6></a>
                 </div>
                 {/* python rock, paper, scissors */}
                 <div className='card'>
@@ -46,7 +46,7 @@ class ProjectsPage extends React.Component {
                         <li> Constructed with PyQt5 framework </li>
                         <li> Consists of buttons and alert messages to create the game </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Rock-Paper-Scissors-Python'><h6> GitHub Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Rock-Paper-Scissors-Python' target="_blank"><h6> GitHub Link </h6></a>
                 </div>
                 {/* java rock, paper, scissors */}
                 <div className='card'>
@@ -56,7 +56,7 @@ class ProjectsPage extends React.Component {
                         <li> Constructed with Java and JavaFX framework </li>
                         <li> Uses Grid Pane to create layout / Uses buttons and text input </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Rock-Paper-Scissors-Java'><h6> GitHub Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Rock-Paper-Scissors-Java' target="_blank"><h6> GitHub Link </h6></a>
                 </div>
                 {/* easy bake order */}
                 <div className='card'>
@@ -67,7 +67,7 @@ class ProjectsPage extends React.Component {
                         <li> Uses RESTful routing and forms to communicate with the client </li>
                         <li> Database is seeded with SQL and seeded with Rails </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/easy_bake_order'><h6> Github Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/easy_bake_order' target="_blank"><h6> Github Link </h6></a>
                 </div>
                 {/* pokemon maze game */}
                 <div className='card'>
@@ -78,7 +78,7 @@ class ProjectsPage extends React.Component {
                         <li> Uses images and JavaFX shapes to create the background </li>
                         <li> Uses key press methods and conditional statements to add functionality  </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Maze-Game'><h6> Github Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Maze-Game' target="_blank"><h6> Github Link </h6></a>
                 </div>
                 {/* javascript rock, paper, scissors */}
                 <div className='card'>
@@ -88,7 +88,7 @@ class ProjectsPage extends React.Component {
                         <li> Constructed with JavaScript, HTML and CSS </li>
                         <li> Uses DOM manipulation to load the page and create the game </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Rock-Paper-Scissors'><h6> GitHub Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Rock-Paper-Scissors' target="_blank"><h6> GitHub Link </h6></a>
                 </div>
                 {/* pancake game */}
                 <div className='card'>
@@ -99,8 +99,8 @@ class ProjectsPage extends React.Component {
                         <li> Seeds user’s game with a Postgres database </li>
                         <li> Uses to Ruby on Rails to create table controllers and RESTful routing </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/mod4_finalProject-frontend'><h6> Github Link (Frontend) </h6></a>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/mod4_finalProject_backend'><h6> Github Link (Backend) </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/mod4_finalProject-frontend' target="_blank"><h6> Github Link (Frontend) </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/mod4_finalProject_backend' target="_blank"><h6> Github Link (Backend) </h6></a>
                 </div>
                 {/* random pokemon generator */}
                 <div className='card'>
@@ -111,7 +111,7 @@ class ProjectsPage extends React.Component {
                         <li> Created with JavaScript, HTML, CSS and React.js </li>
                         <li> Updates the App's state with the fetched pokemon </li>
                     </ul>
-                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Random-Pokemon-React'><h6> Github Link </h6></a>
+                    <a style={{textAlign:'center'}} href='https://github.com/ebolten/Random-Pokemon-React' target="_blank"><h6> Github Link </h6></a>
                 </div>
             </div>
         )
