@@ -8,18 +8,22 @@ class OverviewProjects extends React.Component {
             <div id='headeroverview'>
                 <img style={{width:'300px',float:'left',margin:'40px',display:'flex'}} src={profile}/>
 
-                <h3 style={{width:'1000px',margin:'center',dispay:'flex'}}>
-                    Emily Bolten is a full-stack web developer with a background in creating web applications 
-                    and software. Some of her strongest abilities include writing algorithms and solving 
-                    technical programming problems. She has a passion for computer programming and enjoys 
-                    learning and working with a variety of programming languages as well as learning new ones.
-                </h3>
+                <div style={{width:'1000px',margin:'center',dispay:'flex'}}>
 
-                <br/><br/><br/>
+                    <h3>
+                        Emily Bolten is a full-stack web developer with a background in creating web applications 
+                        and software. Some of her strongest abilities include writing algorithms and solving 
+                        technical programming problems. She has a passion for computer programming and enjoys 
+                        learning and working with a variety of programming languages as well as learning new ones.
+                    </h3>
 
-                <Link to='/'>
-                    <button id='recentprojectsHome'> Back to Home Page </button>
-                </Link>
+                    <br/><br/><br/>
+
+                    <Link to='/'>
+                        <button style={{right:'35%'}} id='recentprojectsHome'> Back to Home Page </button>
+                    </Link>
+
+                </div>
 
             </div>
         )
