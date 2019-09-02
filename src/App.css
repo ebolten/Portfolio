@@ -1,5 +1,6 @@
 body{
   /* maybe a color will go here... */
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .App {
   text-align: center;
@@ -72,13 +73,16 @@ body{
   padding:50px;
 }
 #linkgit{
-  width:145px;
+  width:75px;
+  margin:25px;
 }
 #linkmed{
-  width:150px;
+  width:75px;
+  margin:25px;
 }
 #linklinked{
-  width:125px;
+  width:75px;
+  margin:25px;
 }
 /* recent projects button */
 #recentprojects{

@@ -2,8 +2,8 @@ import React from 'react'
 import Header from './Header.js'
 import { Link } from 'react-router-dom'
 import github from './ICONS/githubicon.png'
-import linkedin from './ICONS/linkedinicon.jpg'
-import medium from './ICONS/mediumicon.webp'
+import linkedin from './ICONS/linkedinicon.png'
+import medium from './ICONS/mediumicon.svg'
 
 class MainPage extends React.Component {
     render(){
