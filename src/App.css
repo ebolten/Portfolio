@@ -56,6 +56,17 @@ body{
   margin:20px;
   text-align:center;
 }
+/* the text within the header when the screen is small */
+#headertextSMALL{
+  /*position:absolute;
+  right:375px;
+  top:250px;*/
+  font-size:25px;
+  color:white;
+  padding:15px;
+  margin:10px;
+  text-align:center;
+}
 /* the avatar */
 #avatar{
   width:200px;
@@ -103,6 +114,18 @@ body{
   position:absolute;
   width:200px;
   right:575px;
+  height:50px;
+  font-size:15px;
+  font-weight:bold;
+  border-radius:10%;
+  margin:10px center;
+}
+/* back to home button on overview small */
+#homeSMALL{
+  background-color:black;
+  color:white;
+  position:absolute;
+  width:200px;
   height:50px;
   font-size:15px;
   font-weight:bold;
