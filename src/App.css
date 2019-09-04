@@ -1,8 +1,8 @@
 body{
   /* maybe a color will go here... */
-  /*white and grey gradient
-  *background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
-  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  /*white and grey gradient*/
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /*background-color:goldenrod;*/
 }
 .App {
   text-align: center;
@@ -101,8 +101,21 @@ body{
   background-color:black;
   color:white;
   position:absolute;
-  right:40%;
   width:200px;
+  right:575px;
+  height:50px;
+  font-size:15px;
+  font-weight:bold;
+  border-radius:10%;
+  margin:10px center;
+}
+/* back to home button with a smaller screen */
+#recentprojectsHomeSMALL{
+  background-color:black;
+  color:white;
+  position:absolute;
+  width:200px;
+  right:-150px;
   height:50px;
   font-size:15px;
   font-weight:bold;
@@ -112,8 +125,19 @@ body{
 /* header for projects */
 #headerprojects{
   background-color:black;
+  position:relative;
   height:50px;
   width:100%;
+  color:white;
+  text-align:center;
+  padding:40px;
+}
+/* header for projects when the screen is smaller */
+#headerprojectsSMALL{
+  background-color:black;
+  position:relative;
+  height:50px;
+  width:200%;
   color:white;
   text-align:center;
   padding:40px;
@@ -121,8 +145,18 @@ body{
 /* header for overview */
 #headeroverview{
   background-color:black;
+  justify-content:flex-end;
+  width:130%;
+  height:315px;
+  color:white;
+  text-align:center;
+  padding:40px;
+}
+/* header for overview */
+#headeroverviewSMALL{
+  background-color:black;
   justify-content: flex-end;
-  width:245%;
+  width:310%;
   height:315px;
   color:white;
   text-align:center;
@@ -141,7 +175,7 @@ body{
 }
 /* div containing all the skills */
 #overviewcards{
-  width:245%;
+  width:130%;
   display:flex;
   flex-flow:row wrap;
   margin:50px;
